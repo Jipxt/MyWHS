@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Taviraj", serif;;
+  color: #fff;
+}
+
+header {
+  background-color: #5E4D77;
+  padding: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 140px;
+}
+
+.sidenav {
+  width: 240px;
+  background: #473366;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 1s;
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+.logo {
+  width: 110px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type:none ;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 20px ;
+  border-radius: 6px;
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul li a:hover,
+ul li a.active {
+  background: #E29063;
+}
+
+ul li a svg {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+header svg {
+  font-size: 34px;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+} */
